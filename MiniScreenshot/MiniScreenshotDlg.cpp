@@ -265,7 +265,7 @@ void CMiniScreenshotDlg::OnBnClickedButton1()
 			TEXT("SK团队提醒"), MB_ICONERROR);
 	}
 	typedef INT(WINAPI *func)(PINT, PINT, PINT, SHORT);
-	INT v1 = 0, v2 = 0, v3 = 0;
+	INT v1 = 0x29, v2 = 0x80, v3 = 0x183;	// Magic.
 	auto DetFX = [&]()
 	{
 		__try {
