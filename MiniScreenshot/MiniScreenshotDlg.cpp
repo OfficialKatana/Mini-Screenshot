@@ -446,7 +446,7 @@ void CMiniScreenshotDlg::OnBnClickedButton5()
 		::CloseHandle(pi.hProcess); //关闭进程句柄
 		::CloseHandle(pi.hThread);  //关闭主线程句柄
 	}
-	MessageBox(TEXT("软件作者：Saurik\n邮箱：king@ithot.top\nQQ：384550791\n网站：http://typedef.cn/"),
+	MessageBox(TEXT("软件作者：Saurik\n邮箱：king@ithot.top\nQQ：1764655874\n网站：http://www.fou.ink/"),
 		TEXT("关于作者"), MB_ICONINFORMATION);
 }
 
